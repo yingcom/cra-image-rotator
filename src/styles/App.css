@@ -1,23 +1,5 @@
-:root {
-  --color-green: #00c5c0;
-  --color-blue: #0000ff;
-  --color-grey: #e0e0e0;
-  --color-white: #fff;
-  --color-black: #000;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  text-align: center;
 }
 
 .header {
@@ -120,7 +102,7 @@ code {
   padding-right: 1rem;
 }
 
-canvas {
+.canvas-area {
   /* border: 1px solid sandybrown; */
   width: 100%;
   height: calc(100% - 3rem);

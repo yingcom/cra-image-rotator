@@ -1,0 +1,42 @@
+
+.panelWrapper {
+  padding: 2rem;
+}
+
+.panelText {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1rem;
+  text-align: left;
+  font-weight: bold;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.panelText:last-child{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap:wrap;
+}
+
+.rotateInput {
+  border: 1px solid black;
+  height: 2rem;
+  width: 4rem;
+  border-radius: 5px;
+  margin: 0.3rem;
+}
+
+.rotateBtn {
+  display: inline-block;
+  background-color: var(--color-blue, #0000ff);
+  color: var(--color-white, #fff);
+  height: 2rem;
+  width: 5rem;
+  text-align: center;
+  padding: 0.1rem;
+  margin: 0.3rem;
+  cursor: pointer;
+}

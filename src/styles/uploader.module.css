@@ -1,0 +1,23 @@
+.uploadWrapper {
+  border-bottom: 1px solid black;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploadBtn {
+  background-color: var(--color-blue, #0000ff);
+  color: var(--color-white, #fff);
+  height: 40%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#uploadInput {
+  display: none;
+}

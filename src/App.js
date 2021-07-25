@@ -39,7 +39,9 @@ function App() {
   }
 
   const angleHandler = (val) => {
-    measure(() => rotate(image, val))
+    if (image) {
+      measure(() => rotate(image, val))
+    }
   }
 
   const rotate = (img, angle = 0) => {

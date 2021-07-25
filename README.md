@@ -1,6 +1,6 @@
 ## Image Rotator
 
-demo: https://4ijn1.csb.app/  
+demo: https://bx4oy.csb.app/  
 
 This is an web app where you can upload and rotate an image. It is implemented without the `CanvasRenderingContext2D.rotate()` API or the `transform` CSS property.
 

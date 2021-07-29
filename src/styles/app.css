@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .app {
   text-align: center;
   font-family: Roboto;
@@ -6,6 +12,7 @@
 .header {
   background-color: var(--color-green, #00c5c0);
   color: var(--color-white, #fff);
+  box-sizing: border-box;
   height: 4rem;
   width: 100%;
   font-size: 2rem;
